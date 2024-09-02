@@ -1,0 +1,116 @@
+
+/* header of page */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+}
+
+header p{
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    width: 780px;
+    text-align: center;
+}
+/* profile for the listicle */
+section
+{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+section div img
+{
+    margin-top: -50%;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px white thick;
+}
+section div p
+{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 10px;
+}
+#name
+{
+    font-weight: bold;
+}
+#update
+{
+    font-style: italic;
+    text-decoration: underline 2px #e6e6e6;
+}
+
+.listicle-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-container {
+    width: 66.67%;
+    position: relative;
+}
+
+.item {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.number h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.25);
+    margin: 0;
+    margin-right: 40px;
+    position: absolute;
+    right: 100%;
+}
+
+.heading h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
+
+.text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(99, 0, 0);
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+}
